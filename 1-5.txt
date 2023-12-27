@@ -1,0 +1,4 @@
+Normal order:
+Will return 0 because it won't execute infinite (p) and if will return 0
+Applicative order:
+Will enter an infinite loop of recursive (p) trying to evaluate it and will probably throw an error

@@ -1,0 +1,1 @@
+This operator adds a to b if b > 0 and subtracts b from a if b < 0(a + |b|)

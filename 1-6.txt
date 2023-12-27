@@ -1,0 +1,7 @@
+ It thinks that the part (good-enough? guess x) is not predicate itself,
+ that good-enough? is predicate, guess is then clause and x is else clause
+ good
+
+ (cond ((good-enough? guess x) guess)
+ 			 (else (sqrt-iter (improve guess x)
+			 									x)))
